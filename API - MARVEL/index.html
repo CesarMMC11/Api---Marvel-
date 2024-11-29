@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+
+    <div class="container" id="auth">
+        <div class="card">
+            <div id="login">
+                <h1>Iniciar Sesion</h1>
+                <form action="" id="LoginForm">
+                    <input type="text" name="correoLogin" id="correoLogin" placeholder="Ingrese un correo electronico">
+                    <input type="password" name="passwordLogin" id="passwordLogin" placeholder="Ingrese la clave">
+                    <button type="submit" >iniciar Sesion</button>
+                </form>
+            </div>
+
+            <div id="registro">
+                <h1>Registrarse</h1>
+                <form action="" id="registroForm">
+                    <input type="text" name="correoRegistro" id="correoRegistro" placeholder="Ingrese un correo electronico">
+                    <input type="password" name="passwordRegistro" id="passwordRegistro" placeholder="Ingrese la clave">
+                    <button type="submit" >Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="" id="content">
+
+        <nav>
+            <img src="https://th.bing.com/th/id/R.2ec569bffe9defbe2930ed8aa8135388?rik=vcx0LtGUqhxpZQ&pid=ImgRaw&r=0" alt="marvelogo">
+            <button id="personajes">Personajes</button>
+            <button id="comics">Comics</button>
+            <button id="creadores">Creadores</button>
+            <button id="eventos">Eventos</button>
+            <button id="series">Series</button>
+            <button id="historias">Historias</button>
+            <button id="CerrarSesion">Cerrar Sesion</button> 
+        </nav>
+
+
+        
+        <div class="nav-container">
+            <button id="prev">Anterior</button>
+            <button id="next">Siguiente</button>
+        </div>
+        
+        <div id="data"></div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
+    <script src="JS/auth.js" type="module" ></script>
+    <script src="JS/app.js" ></script>
+</body>
+</html>
